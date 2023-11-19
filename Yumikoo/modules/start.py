@@ -13,14 +13,14 @@ from Yumikoo.Helper.yumikoo_text import ACTION_TEXT,AFK_TEXT,WELCOME_TEXT,GAMES_
 # ------------------------------------------------------------------------------- #
 
 START_IMG = (
-"https://graph.org/file/f035f0e34969c14ae2e8c.jpg",
-"https://graph.org/file/68227791cf9273fbede7a.jpg",
-"https://graph.org/file/d91ec80b019d43082965d.jpg",
-"https://graph.org/file/d6ae49af114fa50d5ba89.jpg",
-"https://graph.org/file/30f6cc0b6251afe5c4153.jpg",
-"https://telegra.ph/file/0214edaebad6ef6d69c1d.jpg",
-"https://telegra.ph/file/f658925a255bea26efaa4.jpg",
-"https://telegra.ph/file/235e4c7e9dd0c48bac638.jpg",
+"https://telegra.ph/file/7f86dcfe4bddfc5ea52b5.jpg",
+"https://telegra.ph/file/b2daa2dc5a3b310a4d47e.jpg",
+"https://telegra.ph/file/8fd7546b49e235d662b52.jpg",
+"https://telegra.ph/file/7f86dcfe4bddfc5ea52b5.jpg",
+"https://telegra.ph/file/8fd7546b49e235d662b52.jpg",
+"https://telegra.ph/file/658755db9dba844ae18e0.jpg",
+"https://telegra.ph/file/8fd7546b49e235d662b52.jpg",
+"https://telegra.ph/file/658755db9dba844ae18e0.jpg",
 
 )
 
@@ -88,8 +88,8 @@ async def start(client: Client, message: Message):
                 InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
-                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/herokufreecc"),
-                InlineKeyboardButton("ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/iam_daxx"),
+                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/KokuSupportGroup"),
+                InlineKeyboardButton("ᴍᴀɪɴᴛᴀɪɴᴇʀ", url="https://t.me/Sigma_madaraa"),
             ],
             [
                 InlineKeyboardButton("ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_")
